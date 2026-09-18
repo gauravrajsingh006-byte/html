@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" a href="style.css">
+</head>
+<body>
+    <form action="/login" method="post">
+        <center><h1> APPLICATION FOR JOB </h1></center>
+        <hr>
+        <h2>Personal details</h2>
+        <label for="Full Name:">Full Name:</label>
+        <input type="text" id="Full Name:" name="full name:" placeholder="Enter your name" required>
+        <br>
+        <br>
+        <br>
+        <label for="Email:">Email:</label>
+        <input type="email" id="Email:" name="Email:" placeholder="Enter your Email" required>
+        <br>
+        <br>
+        <br>
+        <label for="Mobile:">Mobile:</label>
+        <input type="number" id="Mobile:" name="Mobie:" placeholder="Enter your Mobile No." required>
+        <br>
+        <br>
+        <br>
+        <label for="DOB:">DOB:</label>
+        <input type="date" id="DOB:" name="DOB:" placeholder="Enter your DOB" min="2000-01-01" max="2026-08-17" required>
+        <br>
+        <br>
+        <br>
+        <label>Gender:</label>
+        
+        <input type="radio" id="Male" name="Gender:" value="Male" >
+        <label for="Male"> Male</label>
+
+        <input type="radio" id="Female" name="Gender:" value="Female">
+        <label for="Female"> Female</label>
+
+        <input type="radio" id="Other" name="Gender:" value="Other">
+        <label for="Other">Other</label>
+
+        <br>
+        <br>
+        <br>
+        <label for="Address:">Address:</label>
+        <input form="textarea rows="10" cols="10" placeholder="Enter your Address"></textarea>"
+        <br>
+        <br>
+        <br>
+        <h2>Educational Qualification</h2>
+        <br>
+
+        <label for="Educational Qualification:">Educational Qualification:</label>
+        <select>
+            <Option>10th</Option>
+            <option>12th</option>
+            <option>Graduation</option>
+            <option>Post Graduation</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <label for="Passing Year:">Passing Year:</label>
+        <input type="number" id="Passing Year:" name="passing year" placeholder="Enter your passing year" required>
+        <br>
+        <br>
+        <br>
+        <label for="Percentage:">Percantage:</label>
+        <input type="number" id="Percentage:" name="percentage" placeholder="Enter your Percentage" required>
+        <br>
+        <br>
+        <h2>Job Details</h2>
+        <br>
+        <label for="Position:">Position:</label>
+        <input type="text" id="Position:" name="position" placeholder="Enter your Position" required>
+        <br>
+        <br>
+        <br>
+        <label for="Experience:">Experience:</label>
+        <input type="text" id="Experience:" name="Experience" placeholder="Enter your Experience" required>
+        <br>
+        <br>
+        <br>
+        <label for="Expected Salary:">Expected Salary:</label>
+        <input type="text" id="Expected Salary:" name="Expected Salary">
+        <br>
+        <br>
+        <label for="Skills:">Skills:</label>
+        <br>
+        <input type="checkbox" id="JAVA" name="Skills:" value="Skills">
+        <label for="JAVA">JAVA</label>
+        <br>
+        <br>
+        <input type="checkbox" id="HTML/CSS" name="Skills:" value="Skills">
+        <label for="HTML/CSS">HTML/CSS</label>
+        <br>
+        <br>
+        <input type="checkbox" id="Javascript" name="Skills:" value="Skills">
+        <label for="Javascript">Javascript</label>
+        <br>
+        <br>
+        <input type="checkbox" id="Python" name="Skills:" value="Skills">
+        <label for="Python">Python</label>
+        <br>
+        <br>
+        <label for="Resume:">Resume:</label>
+        <input type="file" id="Resume:" name="Resume">
+        <br>
+        <br>
+        <center><button>Submit</button></center>
+        <br>
+        <center><button>Reset</button></center>
+    </form>
+    <hr>
+</body>
+</html>
