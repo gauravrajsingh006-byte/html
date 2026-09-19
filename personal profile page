@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal profile Page</title>
+    <link rel="stylesheet" href="styler.css">
+</head>
+<body>
+    <center> <H1>INTRODUCTION </H1></center>
+     
+    <P> Hello My Name is <b> Gaurav Raj Singh.</b><Br> I am come from <b>Gorakhpur.</b> <br> I am Currently Pursuing B.tech CSE At INVERTIES UNIVERSITY . </P>
+    
+        <hr> 
+
+        <center> <h1> ABOUT ME </h1></center>
+        <P> I am Interested in<b> typing .</b> <br> My hobbies are<b>playing cricket and listening Music.</b> </P>
+
+<Hr> 
+
+        <center> <h1> Education </h1></center>
+        <ol> 
+            <li>10th passed CBSE BOARD 2023</li>
+            <li> 12th passed CBSE BOARD 2025</li>
+            <li> Currently Pursuing B.tech CSE At INVERTIES UNIVERSITY </li>
+        </ol>
+
+        <hr>
+
+        <center> <h1> SKILLS</h1></center>
+        <ul> 
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+            <li>C/C++</li>
+            <li>PYTHON</li>
+        </ul>
+
+        <hr> 
+
+
+        <CENTER><h1> FAVOURITE SUBJECT </h1></CENTER>
+        <Dl>
+            <dt>HTML</dt>
+            <dd> Hyper text mark up language. </dd>
+            <dt>CSS.</dt>
+            <dd> Cascading Style Sheet.</dd>
+        </Dl>
+</body>
+</html>
